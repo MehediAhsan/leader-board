@@ -84,3 +84,43 @@ main{
     text-decoration: none;
     color: #562EFF;
 }
+
+/* latest courses */
+
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.latest-courses{
+    display: flex;
+    flex-direction: column;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.course-info{
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.course-duration{
+    margin-left: 15px;
+    color: #FF4A60;
+    border-radius: 5px;
+}
+.course-author{  
+    color: #ED6B4F;
+}
+.fa-star{
+    color: yellow;
+}
+.empty{
+    color: beige;
+}
